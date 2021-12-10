@@ -1,7 +1,7 @@
 # cuneiformatic
 Turns a unicode text into a Babylonian cuneiform number using Python and Latex. 
 
-These pieces of code were made for the artwork 'Spijkerkunde' (English: 'Cuneiformatic') for the BANG! festival in Leuven during 2021. 
+These pieces of code were made for the artwork 'Spijkerkunde' (English: 'Cuneiformatic') by Jakob Heirwegh and Seppe Lesschaeve for the BANG! festival in Leuven during 2021. 
 
 It allows to turn unicode text inside the peano.txt file into Latex-commands. These commands can later be added to a Latex file as is demonstrated in cuneiform.tex. 
 
