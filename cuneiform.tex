@@ -1,0 +1,54 @@
+\documentclass[extrafontsizes,36pt]{article}
+
+\usepackage{seqsplit}
+\usepackage{fontspec}
+
+\usepackage{mathptmx}
+\usepackage[12pt]{moresize}
+
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
+
+\usepackage{anyfontsize}
+\usepackage{t1enc}
+
+\usepackage{setspace}
+\onehalfspacing
+
+\newfontface{\cuneiform}[Scale=MatchUppercase]{Santakku}
+\DeclareTextFontCommand{\textcuneiform}{\cuneiform}
+
+% these commands are used to display the symbols in cuneiform using their unicode code
+\newcommand{\0}{ }
+\newcommand{\1}{\symbol{"12079}}
+\newcommand{\2}{\symbol{"12079}\symbol{"12079}}
+\newcommand{\3}{\symbol{"12408}}
+\newcommand{\4}{\symbol{"12409}}
+\newcommand{\5}{\symbol{"1240A}}
+\newcommand{\6}{\symbol{"1240B}}
+\newcommand{\7}{\symbol{"1240C}}
+\newcommand{\8}{\symbol{"1240D}}
+\newcommand{\9}{\symbol{"1240E}}
+\newcommand{\ten}{\symbol{"1230B}}
+\newcommand{\twenty}{\symbol{"1230B}\symbol{"1230B}}
+\newcommand{\thirty}{\symbol{"1230B}\symbol{"1230B}\symbol{"1230B}}
+\newcommand{\fourty}{𒐏}
+\newcommand{\fifty}{𒐐}
+
+
+
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\centering
+% the rest of this document consists of the output of the python script, some Latex black magic was added to get the proper fontsize.
+\noindent\HUGE\fontsize{60}{}\textcuneiform{\fifty}\textcuneiform{\9} \textcuneiform{\twenty}\textcuneiform{\2} \textcuneiform{\fifty}\textcuneiform{\2} \textcuneiform{\thirty}\textcuneiform{\3} \textcuneiform{\ten} \textcuneiform{\ten}\textcuneiform{\2} \textcuneiform{\1} \textcuneiform{\thirty}\textcuneiform{\5} \textcuneiform{\twenty}\textcuneiform{\7} \textcuneiform{\fifty} \textcuneiform{\fifty}\textcuneiform{\3} \textcuneiform{\thirty}\textcuneiform{\5} \textcuneiform{\fifty} \textcuneiform{\ten}\textcuneiform{\2} \textcuneiform{\fifty}\textcuneiform{\3} \textcuneiform{\ten}\textcuneiform{\7} \textcuneiform{\5} \textcuneiform{\fourty}\textcuneiform{\7} \textcuneiform{\fifty}\textcuneiform{\2} \textcuneiform{\twenty}\textcuneiform{\7} \textcuneiform{\fourty}\textcuneiform{\6} \textcuneiform{\ten}\textcuneiform{\1} \textcuneiform{\fourty}\textcuneiform{\3} \textcuneiform{\twenty}\textcuneiform{\2} \textcuneiform{\4} \textcuneiform{\twenty} \textcuneiform{\ten}\textcuneiform{\1} \textcuneiform{\ten}\textcuneiform{\2} \textcuneiform{\thirty}\textcuneiform{\8} \textcuneiform{\fifty}\textcuneiform{\8} \textcuneiform{\twenty}\textcuneiform{\2} \textcuneiform{\fifty}\textcuneiform{\2} \textcuneiform{\fifty} \textcuneiform{\thirty}\textcuneiform{\8} \textcuneiform{\8} \textcuneiform{\twenty}\textcuneiform{\8} \textcuneiform{\twenty}\textcuneiform{\1} \textcuneiform{\ten}\textcuneiform{\6} \textcuneiform{\6} \textcuneiform{\twenty} \textcuneiform{\fifty}\textcuneiform{\9} \textcuneiform{\fifty}\textcuneiform{\3} \textcuneiform{\fourty}\textcuneiform{\1} \textcuneiform{\ten}\textcuneiform{\2} \textcuneiform{\twenty}\textcuneiform{\2} \textcuneiform{\fourty}\textcuneiform{\4} \textcuneiform{\ten}\textcuneiform{\1} \textcuneiform{\twenty}\textcuneiform{\5} \textcuneiform{\fourty}\textcuneiform{\3} \textcuneiform{\twenty}\textcuneiform{\3} \textcuneiform{\ten}\textcuneiform{\1} \textcuneiform{\ten}\textcuneiform{\7} \textcuneiform{\fifty} \textcuneiform{\0} \textcuneiform{\fifty}\textcuneiform{\7} \textcuneiform{\twenty}\textcuneiform{\7} \textcuneiform{\thirty}\textcuneiform{\6} \textcuneiform{\2} \textcuneiform{\twenty}\textcuneiform{\4} \textcuneiform{\fifty}\textcuneiform{\7} \textcuneiform{\1} \textcuneiform{\thirty}\textcuneiform{\1} \textcuneiform{\ten}\textcuneiform{\4} \textcuneiform{\ten}\textcuneiform{\8} \textcuneiform{\fourty} \textcuneiform{\thirty}\textcuneiform{\1} \textcuneiform{\fifty} \textcuneiform{\twenty}\textcuneiform{\3} \textcuneiform{\ten}\textcuneiform{\4} \textcuneiform{\fifty}\textcuneiform{\2} \textcuneiform{\twenty} \textcuneiform{\thirty}\textcuneiform{\6} \textcuneiform{\3} \textcuneiform{\twenty}\textcuneiform{\5} \textcuneiform{\thirty} \textcuneiform{\ten}\textcuneiform{\9} \textcuneiform{\thirty}\textcuneiform{\6} \textcuneiform{\twenty}\textcuneiform{\5} \textcuneiform{\fifty}\textcuneiform{\4} \textcuneiform{\thirty}\textcuneiform{\7} \textcuneiform{\fourty}\textcuneiform{\4} \textcuneiform{\fifty}\textcuneiform{\9} \textcuneiform{\twenty}\textcuneiform{\2} \textcuneiform{\7} \textcuneiform{\twenty} \textcuneiform{\twenty}\textcuneiform{\4} \textcuneiform{\ten}\textcuneiform{\1} \textcuneiform{\fourty} \textcuneiform{\fourty}\textcuneiform{\4} \textcuneiform{\ten}\textcuneiform{\9} \textcuneiform{\twenty} \textcuneiform{\5} \textcuneiform{\fifty} \textcuneiform{\twenty}\textcuneiform{\7} \textcuneiform{\2} \textcuneiform{\8} \textcuneiform{\twenty} \textcuneiform{\thirty}\textcuneiform{\9} \textcuneiform{\4} \textcuneiform{\ten}\textcuneiform{\1} \textcuneiform{\9} \textcuneiform{\thirty}\textcuneiform{\5} \textcuneiform{\fourty}\textcuneiform{\6} \textcuneiform{\ten}\textcuneiform{\9} \textcuneiform{\fifty} \textcuneiform{\7} \textcuneiform{\1} \textcuneiform{\0} \textcuneiform{\fourty} \textcuneiform{\fifty}\textcuneiform{\6} \textcuneiform{\fourty}\textcuneiform{\6} \textcuneiform{\fourty}\textcuneiform{\2} \textcuneiform{\twenty}\textcuneiform{\7} \textcuneiform{\ten}\textcuneiform{\2} \textcuneiform{\fourty} \textcuneiform{\twenty}\textcuneiform{\8} \textcuneiform{\ten}\textcuneiform{\2} \textcuneiform{\fifty}\textcuneiform{\6} \textcuneiform{\3} \textcuneiform{\1} \textcuneiform{\ten}\textcuneiform{\2} \textcuneiform{\fifty}\textcuneiform{\2} \textcuneiform{\ten}\textcuneiform{\9} \textcuneiform{\fifty}\textcuneiform{\1} \textcuneiform{\9} \textcuneiform{\ten}\textcuneiform{\7} \textcuneiform{\fourty}\textcuneiform{\5} \textcuneiform{\thirty}\textcuneiform{\6} \textcuneiform{\thirty}\textcuneiform{\7} \textcuneiform{\9} \textcuneiform{\7} \textcuneiform{\thirty}\textcuneiform{\8} \textcuneiform{\twenty}\textcuneiform{\2} \textcuneiform{\fourty}\textcuneiform{\4} \textcuneiform{\2} \textcuneiform{\9} \textcuneiform{\twenty}\textcuneiform{\2} \textcuneiform{\twenty}\textcuneiform{\1} \textcuneiform{\fifty}\textcuneiform{\7} \textcuneiform{\twenty}\textcuneiform{\1} \textcuneiform{\ten}\textcuneiform{\1} \textcuneiform{\thirty}\textcuneiform{\4} \textcuneiform{\fifty}\textcuneiform{\2} \textcuneiform{\ten} \textcuneiform{\1} \textcuneiform{\fourty}\textcuneiform{\6} \textcuneiform{\twenty}\textcuneiform{\2} \textcuneiform{\twenty}\textcuneiform{\4} \textcuneiform{\5} \textcuneiform{\7} \textcuneiform{\ten}\textcuneiform{\1} \textcuneiform{\fourty}\textcuneiform{\3} \textcuneiform{\1} \textcuneiform{\thirty}\textcuneiform{\3} \textcuneiform{\fourty}\textcuneiform{\6} \textcuneiform{\fifty}\textcuneiform{\4} \textcuneiform{\ten}\textcuneiform{\9} \textcuneiform{\fifty}\textcuneiform{\8} \textcuneiform{\fifty}\textcuneiform{\1} \textcuneiform{\fifty}\textcuneiform{\4}\par
+
+\end{document}

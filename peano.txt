@@ -1,0 +1,6 @@
+∀x (0≠S(x))
+∀x,y (S(x)=S(y) ⇒ x=y) 
+∀x (x+0 = x) 
+∀x,y (x+S(y) = S(x+y)) 
+∀x (x⋅0 = 0) 
+∀x,y (x⋅S(y) = x⋅y+x)
